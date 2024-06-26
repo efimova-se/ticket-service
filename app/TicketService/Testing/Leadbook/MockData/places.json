@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "id": 1,
+            "x": 0,
+            "y": 0,
+            "width": 20,
+            "height": 20,
+            "is_available": true
+        },
+        {
+            "id": 2,
+            "x": 0,
+            "y": 30,
+            "width": 20,
+            "height": 20,
+            "is_available": true
+        },
+        {
+            "id": 3,
+            "x": 0,
+            "y": 60,
+            "width": 20,
+            "height": 20,
+            "is_available": false
+        }
+    ]
+}
