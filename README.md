@@ -24,13 +24,18 @@ APP_URL=http://localhost:8333
 APP_PORT=8333
 ```
 
-Запустить проект в Sail:
+Провести начальную инициализацию (единоразово):
 ```bash
+make init
 make up
+make key
 ```
 
 Другие команды для Sail:
 ```bash
+#запустить приложение
+make up
+
 #остановить приложение
 make stop
 
