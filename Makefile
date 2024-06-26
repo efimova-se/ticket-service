@@ -23,7 +23,6 @@ init: ## Application first init
 	-w /var/www/html \
 	laravelsail/php83-composer:latest \
 	composer install --ignore-platform-reqs
-	./vendor/bin/sail artisan key:generate
 
 key: ## Run application tests
 	./vendor/bin/sail artisan key:generate
